@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/x-icon" href="images/brand-logo.svg">
+    <title>Bulma Blog Template</title>
+    <!-- social media sharing -->
+    <meta property="og:url" content="https://" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content=""" />
+    <meta property=" og:image" content="" />
+    <meta name="twitter:image" content="">
+    <meta property="pinterest:image" content="">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    #test {
+        background-color: red;
+    }
+</style>
+
+<body class="has-navbar-fixed-top">
+
+    <!-- start of nav -->
+    <nav class="navbar is-fixed-top is-transparent py-4 px-3">
+        <!-- start of brand logo, align items to center burger -->
+        <div class="navbar-brand is-align-items-center">
+            <a href="index.html" class="navbar-item">
+                <img src="images/brand-logo.svg" alt="brand logo" style="max-height: 72px;">
+            </a>
+            <!-- start of burger -->
+            <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+            <!-- end of burger-->
+        </div>
+        <!-- end of brand logo -->
+        <!-- start of nav links -->
+        <div class="navbar-menu is-shadowless">
+            <!-- start of website links -->
+            <div class="navbar-start">
+                <a href="" class="navbar-item">
+                    Home
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <p class="navbar-link is-arrowless">
+                        Articles
+                    </p>
+                    <!-- start of article topics -->
+                    <div class="navbar-dropdown is-size-6">
+                        <a href="" class="navbar-item">
+                            News
+                        </a>
+                        <a href="" class="navbar-item">
+                            Science
+                        </a>
+                        <a href="" class="navbar-item">
+                            Tech
+                        </a>
+                    </div>
+                    <!-- end of article topics-->
+                </div>
+                <a href="" class="navbar-item">
+                    Shop
+                </a>
+                <a href="" class="navbar-item">
+                    About
+                </a>
+            </div>
+            <!-- end of website links -->
+            <!-- start of social media links -->
+            <div class="navbar-end is-align-items-center">
+
+                <div class="buttons mx-3">
+
+                    <a href="" class="button is-rounded" title="share on facebook">
+                        <span class="icon is-large">
+                            <i class="fa-brands fa-facebook fa-xl" style="color: #3b5998;"></i>
+                        </span>
+                    </a>
+
+
+                    <a href="" class="button is-rounded" title="share on twitter">
+                        <span class="icon is-large">
+                            <i class="fa-brands fa-twitter fa-xl" style="color: #00acee;"></i>
+                        </span>
+                    </a>
+
+
+                    <a id="link" class="button is-rounded" title="copy link">
+                        <span class="icon is-large">
+                            <i class="fa-solid fa-link fa-lg" style="color: #040404;"></i>
+                        </span>
+                    </a>
+
+
+                    <a href="mailto:" class="button is-rounded" title="send email">
+                        <span class="icon is-large">
+                            <i class="fa-regular fa-envelope fa-xl" style="color: #040404;"></i>
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+            <!-- end of social media links -->
+        </div>
+        <!-- end of nav links-->
+    </nav>
+    <!-- end of nav-->
+    <!-- start of main header -->
+    <section class="hero has-text-centered is-link mt-6">
+        <header class="hero-body">
+            <h1 class="is-size-1 has-text-weight-semibold">
+                Blog Spot
+            </h1>
+            <p class="subtitle ">
+                Brand Motto, Lorem ipsum dolor sit.
+            </p>
+        </header>
+    </section>
+    <!-- end of main header -->
+    <!-- start of main -->
+    <main>
+        <!-- start of article -->
+        <article class="section">
+            <!-- start of article headings -->
+            <div class="block">
+                <a href="">
+                    <h2 class="has-text-weight-bold">Subject Link</h2>
+                </a>
+                <h2 class="title is-size-4-mobile">
+                    This is where your title goes. Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </h2>
+                <p class="subtitle">
+                    This is where your description goes. Lorem ipsum dolor sit
+                </p>
+            </div>
+            <!-- end of article headings -->
+            <!-- start of main image -->
+            <div class="block">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-3by2 has-background-link">
+                            <img src="" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="has-text-weight-semibold">
+                    <p>
+                        By
+                        <a class="has-text-dark has-text-weight-bold" href="">Author Link</a>
+                    </p>
+                    <p>
+                        10/10/2023 10:10 PM EDT
+                    </p>
+                    <p>
+                        Updated: 10/10/2023 10:10 PM EDT
+                    </p>
+                </div>
+            </div>
+            <!-- end of main image -->
+            <!-- start of main content -->
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam rerum vero aut nulla libero, eum
+                    odio provident, ducimus tempore aliquid nemo vitae doloremque nihil alias ipsum dolores placeat ut
+                    cum!
+                </p>
+            </div>
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique autem debitis officia, impedit
+                    quam et veniam neque repudiandae aliquid, corporis maiores commodi cum nam perferendis eius
+                    aspernatur temporibus, laudantium voluptas.
+                </p>
+            </div>
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit:
+                </p>
+            </div>
+            <!-- start of subheading -->
+            <header class="block has-text-centered">
+                <h3 class="title is-size-4-mobile">
+                    This is a subheading
+                </h3>
+            </header>
+            <!-- end of subheading -->
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A modi, iure consequuntur temporibus vel
+                    maxime ab voluptate veritatis exercitationem voluptates molestiae ipsam dignissimos ratione cum
+                    iusto ut cupiditate?
+                </p>
+            </div>
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt non doloribus! Esse, quam.
+                </p>
+            </div>
+            <!-- start of iframe -->
+            <div class="block">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-16by9">
+                            <iframe class="has-ratio" width="560" height="315"
+                                src="https://www.youtube.com/embed/SCSAExGFK1E" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!-- end of iframe -->
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A modi, iure consequuntur temporibus vel
+                    maxime ab voluptate veritatis exercitationem voluptates molestiae ipsam dignissimos ratione cum
+                    iusto ut cupiditate?
+                </p>
+            </div>
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt non doloribus! Esse, quam.
+                </p>
+            </div>
+            <!-- start of image and description -->
+            <div class="block is-size-6 is-size-7-mobile">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-3by2 has-background-link">
+                            <img src="" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="has-text-weight-semibold">
+                    <p>
+                        Image description Lorem, ipsum dolor. | October 10, 2023 | Attribution
+                    </p>
+                </div>
+            </div>
+            <!-- end of image and description -->
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt non doloribus! Esse, quam.
+                </p>
+            </div>
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt non doloribus! Esse, quam.
+                </p>
+            </div>
+            <!-- start of subheading -->
+            <header class="block">
+                <h4 class="title is-size-4 is-size-5-mobile">
+                    This is further a subheading
+                </h4>
+            </header>
+            <!-- end of subheading -->
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A modi, iure consequuntur temporibus vel
+                    maxime ab voluptate veritatis exercitationem voluptates molestiae ipsam dignissimos ratione cum
+                    iusto ut cupiditate?
+                </p>
+            </div>
+            <div class="block is-size-5 is-size-6-mobile">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt non doloribus! Esse, quam.
+                </p>
+            </div>
+            <!-- end of main content -->
+            <!-- start of article footer -->
+            <footer class="block is-size-6 has-text-weight-semibold">
+                <p>
+                    Filed Under:
+                    <a href="">
+                        <span class="tag is-dark">Subject</span>
+                    </a>
+                    <a href="">
+                        <span class="tag is-link">Subject</span>
+                    </a>
+                    <a href="">
+                        <span class="tag is-white">Subject</span>
+                    </a>
+                    <a href="">
+                        <span class="tag is-light">Subject</span>
+                    </a>
+                </p>
+            </footer>
+            <!-- end of article footer -->
+            <!-- start of form -->
+            <div class="block">
+                <div class="card">
+                    <div class="card-content">
+                        <form action="">
+                            <!-- start of form header -->
+                            <header class="block">
+                                <h5 class="title is-size-4 is-size-5-mobile">
+                                    Breaking News Alerts
+                                </h5>
+                                <p class="subtitle is-size-6 is-size-7-mobile">
+                                    Sign up for Blog Spot Alerts to receive the latest updates in your inbox.
+                                </p>
+                            </header>
+                            <!-- end of form header -->
+                            <!-- start of name field-->
+                            <div class="field">
+                                <label for="" class="label">Name</label>
+                                <div class="control">
+                                    <input type="text" class="input" placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <!-- end of name field -->
+                            <!-- start of email field -->
+                            <div class="field">
+                                <label for="" class="label">Email</label>
+                                <div class="control">
+                                    <input type="email" class="input" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <!-- end of email field -->
+                            <!-- start of submit -->
+                            <div class="field">
+                                <div class="columns">
+                                    <div class="column">
+                                        <p class="is-size-7">
+                                            By signing up you agree to allow Blog Spot to collect your user information
+                                            and use it to better recommend content to you, send you email newsletters or
+                                            updates from Blog Spot, and share insights based on aggregated user
+                                            information. You further agree to our
+                                            <a href="" target="_blank">privacy policy</a> and
+                                            <a href="" target="_blank">terms of service.</a>
+                                        </p>
+                                    </div>
+                                    <div class="column has-text-centered is-flex is-justify-content-center is-align-items-center">
+                                        <button class="button is-rounded is-link">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of submit-->
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end of form -->
+        </article>
+        <!-- end of article-->
+    </main>
+    <!-- end of main -->
+    <!-- link copied popup -->
+    <div id="linkCopied" class="card has-background-light is-block is-hidden">
+        <div class="card-content">
+            <div class="content">
+                Link Copied!
+            </div>
+        </div>
+    </div>
+    <!-- cookies popup -->
+    <div class="notification">
+        <button class="delete is-medium"></button>
+        <span class="icon-text">
+            <span class="icon">
+                <i class="fa-solid fa-cookie-bite fa-xl" style="color: #663300;"></i>
+            </span>
+            This site uses cookies.
+            <a href="https://www.cookiesandyou.com/" target="_blank" rel="noopener noreferrer">
+                What are cookies?
+            </a>
+        </span>
+    </div>
+    <!-- go to Top -->
+    <a id="top" href="" class="button is-light">
+        <span class="icon has-text-black">
+            <i class="fa-solid fa-arrow-up"></i>
+        </span>
+    </a>
+    <!-- start of footer -->
+    <footer class="has-background-link">
+        <div class="section">
+            <div class="columns">
+                <div class="column is-8 has-text-centered-touch">
+
+                    <p class="has-text-light">
+                        <a class="has-text-light" href="">
+                            About Us
+                        </a>
+                        |
+                        <a class="has-text-light" href="">
+                            Advertising
+                        </a>
+                        |
+                        <a class="has-text-light" href="">
+                            Business
+                        </a>
+                        |
+                        <a class="has-text-light" href="">
+                            Privacy Policy
+                        </a>
+                        |
+                        <a class="has-text-light" href="">
+                            Site Map
+                        </a>
+                        |
+                        <a class="has-text-light" href="">
+                            Shop
+                        </a>
+                        |
+                        <a class="has-text-light" href="">
+                            Terms of Services
+                        </a>
+                    </p>
+
+                </div>
+                <div class="column has-text-right has-text-centered-touch">
+                    <p class="has-text-light">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        Blog Spot LLC
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer-->
+    <script src="js/global.js"></script>
+</body>
+
+</html>

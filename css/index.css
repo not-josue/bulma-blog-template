@@ -1,0 +1,39 @@
+/* link copied popup */
+#linkCopied {
+    position: fixed;
+    height: fit-content;
+    width: fit-content;
+    right: 0;
+    top: 120px;
+    z-index: 1;
+}
+/* cookie notification */
+div.notification {
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    width: 200px;
+    z-index: 1;
+}
+
+/* go to Top button */
+#top {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    height: 50px;
+    width: 50px;
+}
+
+main {
+    max-width: 50vw !important;
+    margin: auto !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        max-width: 80vw !important;
+    }
+    
+}
