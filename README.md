@@ -3,17 +3,27 @@
 
 A blog template made in Bulma CSS.
 
-## Scripts
+## 📜 Scripts
 
 - Popup when link is copied in the navbar
 - Go to top button
 - Cookies notification
 
-## Template
+## 🏠 Template
 
-📀 [Demo](https://not-josue.github.io/bulma-blog-template/)  
+### 📀 [Live Demo](https://not-josue.github.io/bulma-blog-template/)  
 
-![Demo](https://github.com/not-josue/bulma-blog-template/assets/129870578/b1e138a3-1107-4556-bf8a-bba46151a0fd)
+## 🖥️ Desktop
+
+![Desktop](https://github.com/not-josue/bulma-blog-template/assets/129870578/b1e138a3-1107-4556-bf8a-bba46151a0fd)
+
+## 💻 Tablet
+
+![Tablet](https://github.com/not-josue/bulma-blog-template/assets/129870578/6d893b4a-7f50-4aa8-b587-7ab81c21eea8)
+
+## 📱 Mobile
+
+![Mobile](https://github.com/not-josue/bulma-blog-template/assets/129870578/901c7718-e842-4c62-ade4-cbec0afddcbe)
 
 ## License 
 
