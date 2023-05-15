@@ -14,3 +14,7 @@ A blog template made in Bulma CSS.
 📀 [Demo](https://not-josue.github.io/bulma-blog-template/)  
 
 ![Demo](https://github.com/not-josue/bulma-blog-template/assets/129870578/b1e138a3-1107-4556-bf8a-bba46151a0fd)
+
+## License 
+
+MIT
