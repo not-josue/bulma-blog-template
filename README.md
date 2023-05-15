@@ -4,8 +4,13 @@
 A blog template made in Bulma CSS.
 
 ## Scripts
+
 - Popup when link is copied in the navbar
 - Go to top button
 - Cookies notification
 
-![Screen Shot 2023-05-14 at 18 01 00](https://github.com/not-josue/bulma-blog-template/assets/129870578/b1e138a3-1107-4556-bf8a-bba46151a0fd)
+## Template
+
+📀 [Demo](https://not-josue.github.io/bulma-blog-template/)  
+
+![Demo](https://github.com/not-josue/bulma-blog-template/assets/129870578/b1e138a3-1107-4556-bf8a-bba46151a0fd)
