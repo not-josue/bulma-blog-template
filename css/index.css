@@ -7,6 +7,22 @@
     top: 120px;
     z-index: 1;
 }
+@media screen and (max-width: 810px) {
+    #linkCopied {
+        top: auto;
+        right: auto;
+        left: 0;
+        bottom: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #linkCopied {
+        top: auto;
+        right: auto;
+        left: 0;
+        bottom: 36.5%;
+    }
+}
 /* cookie notification */
 div.notification {
     position: fixed;
@@ -15,7 +31,6 @@ div.notification {
     width: 200px;
     z-index: 1;
 }
-
 /* go to Top button */
 #top {
     position: fixed;
