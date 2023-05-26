@@ -13,17 +13,7 @@ A blog template made in Bulma CSS.
 
 ### 📀 [Live Demo](https://not-josue.github.io/bulma-blog-template/)  
 
-## 🖥️ Desktop
-
-![Desktop](https://github.com/not-josue/bulma-blog-template/assets/129870578/b1e138a3-1107-4556-bf8a-bba46151a0fd)
-
-## 💻 Tablet
-
-![Tablet](https://github.com/not-josue/bulma-blog-template/assets/129870578/6d893b4a-7f50-4aa8-b587-7ab81c21eea8)
-
-## 📱 Mobile
-
-![Mobile](https://github.com/not-josue/bulma-blog-template/assets/129870578/901c7718-e842-4c62-ade4-cbec0afddcbe)
+![bulma-blog-mockup](https://github.com/not-josue/bulma-blog-template/assets/129870578/bb5292b0-ddc7-48a4-a2a1-0141ec46e014)
 
 ## License 
 
